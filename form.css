@@ -1,0 +1,39 @@
+*{
+	border:0px;
+}
+.form{
+	width:670px;
+}
+label{
+	font: normal 18px/100% Verdana, Tahoma, sans-serif;
+}
+input, textarea{
+	padding: 5px;
+	margin: 10px;
+	border: solid 1px #C5C5C5;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	background: #FFFFFF;
+	background: -webkit-gradient(linear, left top, left 4, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 0.16px, #FFFFFF 4px);
+}
+textarea{
+	width: 400px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+}
+input:focus, textarea:focus{
+	border-color: #C9C9C9;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+	margin: 0;
+}
+button{
+	width:auto;
+	padding: 9px 15px;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+}
