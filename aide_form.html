@@ -6,28 +6,70 @@
 	</head>
 	<body>
 		<form class="form">
+			<h1>Aide Form</h1>
 			<p>
-				<label>First Name:</label>
+				<label>*First Name:</label>
 				<input type="text" name="first_name" required>
 				<label>Middle Name:</label>
 				<input type="text" name="middle_name"><br>
-				<label>Last Name:</label>
+				<label>*Last Name:</label>
 				<input type="text" name="last_name" required><br>
 			</p>
 			<p>
-				<label>Phone Number:</label>
-				<input type="text" name="phone_num" required><br>
-				<label>DOB:</label> <input type="text" name="dob" required>
+				<label>*Phone Number:</label>
+				<input type="text" name="phone_num" placeholder="###-###-####" pattern="\d{3}-\d{3}-\d{4}" required><br>
+				<label>DOB:</label> <input type="text" name="dob">
 				<label>SSN:</label> <input type="text" name="ssn"><br>
 			</p>
 			<p>
-				<label>Address:</label>
-				<input type="text" name="address" required><br>
-				<label>City:</label>
+				<label>*Address:</label>
+				<input type="text" name="address" size="50" required><br>
+				<label>*City:</label>
 				<input type="text" name="city" required>
-				<label>State:</label>
-				<input type="text" name="state" required>
-				<label>Zip Code:</label>
+				<label>*State:</label>
+				<select name="state" required>
+					<option value="alabama">Alabama</option>
+					<option value="alaska">Alaska</option>
+					<option value="arizona">Arizona</option>
+					<option value="arkansas">Arkansas</option>
+					<option value="california">California</option>
+					<option value="colorado">Colorado</option>
+					<option value="connecticut">Connecticut</option>
+					<option value="delaware">Delaware</option>
+					<option value="florida">Florida</option>
+					<option value="georgia">Georgia</option>
+					<option value="hawaii">Hawaii</option>
+					<option value="idaho">Idaho</option>
+					<option value="illinois">Illinois</option>
+					<option value="indiana">Indiana</option>
+					<option value="iowa">Iowa</option>
+					<option value="kansas">Kansas</option>
+					<option value="kentucky">Kentucky</option>
+					<option value="louisiana">Louisiana</option>
+					<option value="maine">Maine</option>
+					<option value="maryland">Maryland</option>
+					<option value="massachusetts">Massachusetts</option>
+					<option value="michigan">Michigan</option>
+					<option value="minnesota">Minnesota</option>
+					<option value="mississippi">Mississippi</option>
+					<option value="missouri">Missouri</option>
+					<option value="montana">Montana</option>
+					<option value="nebraska">Nebraska</option>
+					<option value="nevada">Nevada</option>
+					<option value="new_hampshire">New Hampshire</option>
+					<option value="new_jersey">New Jersey</option>
+					<option value="new_mexico">New Mexico</option>
+					<option value="new_york" selected>New York</option>
+					<option value="north_carolina">North Carolina</option>
+					<option value="north_dakota">North Dakota</option>
+					<option value="ohio">Ohio</option>
+					<option value="oklahoma">Oklahoma</option>
+					<option value="oregon">Oregon</option>
+					<option value="pennsylvania">Pennsylania</option>
+					<option value="rhode_island">Rhode Island</option>
+					<option value="south_carolina">South Carolina</option>
+				</select><br>
+				<label>*Zip Code:</label>
 				<input type="text" name="zip" required><br>
 			</p>
 			<p>
@@ -35,11 +77,11 @@
 				<label>Name:</label>
 				<input type="text" name="em_name_1">
 				<label>Phone Number:</label>
-				<input type="text" name="em_contact_1"><br>
+				<input type="text" name="em_contact_1" placeholder="###-###-####" pattern="\d{3}-\d{3}-\d{4}"><br>
 				<label>Name:</label>
 				<input type="text" name="em_name_2">
 				<label>Phone Number:</label>
-				<input type="text" name="em_contact_2"><br>
+				<input type="text" name="em_contact_2" placeholder="###-###-####" pattern="\d{3}-\d{3}-\d{4}"><br>
 			</p>
 			<p>
 				<label>Additional Notes</label><br>
